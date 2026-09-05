@@ -1,82 +1,135 @@
 <div align="center">
 
-```text
-   _____ __          _ __          __       _____      __  __    _
-  / ___// /_  ____ _(_) /__  _____/ /_     / ___/___  / /_/ /_  (_)
-  \__ \/ __ \/ __ `/ / / _ \/ ___/ __ \    \__ \/ _ \/ __/ __ \/ /
- ___/ / / / / /_/ / / /  __(__  ) / / /   ___/ /  __/ /_/ / / / /
-/____/_/ /_/\__,_/_/_/\___/____/_/ /_/   /____/\___/\__/_/ /_/_/
+<img src="./assets/hero.svg" width="100%" alt="Animated terminal banner introducing Shailesh Sethi, creative developer and AI explorer" />
 
-shailesh@github:~$ ./build_playful_things
-> status: curious, shipping, and open to ambitious ideas_
-```
+<br />
 
-# Shailesh Sethi
+[![Portfolio](https://img.shields.io/badge/EXPLORE_PORTFOLIO-43FF78?style=for-the-badge&logo=vercel&logoColor=030705&labelColor=030705)](https://github.com/ShaileshSethi/PORTFOLIO-UP)
+[![LinkedIn](https://img.shields.io/badge/LET'S_CONNECT-35D8FF?style=for-the-badge&logo=linkedin&logoColor=030705&labelColor=030705)](https://www.linkedin.com/in/shailesh-sethi-3aab58378/)
+[![Email](https://img.shields.io/badge/SEND_A_SIGNAL-FFB000?style=for-the-badge&logo=gmail&logoColor=030705&labelColor=030705)](mailto:shaileshtunes@gmail.com)
 
-**Creative Developer · Engineer · Game Builder · AI Explorer**
-
-I build playful, high-performance digital experiences where engineering, motion, games, and AI collide.
-
-[![Portfolio Source](https://img.shields.io/badge/PORTFOLIO_OS-VIEW_SOURCE-43ff78?style=flat-square&labelColor=030705)](https://github.com/ShaileshSethi/PORTFOLIO-UP)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-35d8ff?style=flat-square&labelColor=030705)](https://www.linkedin.com/in/shailesh-sethi-3aab58378/)
-[![Email](https://img.shields.io/badge/EMAIL-SEND_SIGNAL-ffb000?style=flat-square&labelColor=030705)](mailto:shaileshtunes@gmail.com)
+<sub>↓ Pick a signal. Open a project. Start a conversation. ↓</sub>
 
 </div>
 
-## `$ whoami`
+## `01 // CURRENT MISSION`
 
 ```yaml
-name: Shailesh Sethi
+operator: Shailesh Sethi
 location: India
-current_role: OpenAI Campus Lead
-focus:
-  - Creative frontend engineering
-  - AI-powered experiences
-  - Game development
-  - Motion and interaction design
-mission: Turn ambitious ideas into useful experiences people remember.
+role: OpenAI Campus Lead
+building: Playful products at the intersection of AI, games, and motion
+principle: "Make it useful. Make it fast. Make it unforgettable."
+status: Open to ambitious ideas and creative collaborations
 ```
 
-## `$ ls ./featured-projects`
+I’m a creative developer who likes turning unusual ideas into experiences people can actually touch, play with, and remember. My work moves between **frontend engineering**, **AI-powered products**, **game development**, and **interaction design**.
 
-| # | Build | What it does | Stack | Status |
-|---|---|---|---|---|
-| `01` | [**SAFEZONES**](https://safezones.vercel.app/) | Real-time safety dashboard for fast emergency action | Next.js · WebSockets | 🥉 3rd Place |
-| `02` | [**TELEPORT KILLER**](https://www.jabali.ai/game/574e925c-814c-4655-b0c2-18d4b8d1f1de/create-from-scratch/teleport-killer/) | Neon cyberpunk combat experiment | C++ · Unreal | ⚡ Top 10 |
-| `03` | [**VIBE CODE QUEST**](https://app-b0pl8qd02cjl.appmedo.com/) | 8-bit adventure that teaches better prompting through play | AI/ML · Game Dev | 🏆 Winner |
-| `04` | **MEOWCARE** | Accessible remote-care experience built around clarity | React Native · UX | 💚 Built with care |
+## `02 // SELECT A BUILD`
 
-## `$ cat toolbox.json`
+<details open>
+<summary><strong>🛡️ SAFEZONES</strong> — Real-time emergency intelligence <code>3rd Place</code></summary>
 
-<p>
-  <img src="https://img.shields.io/badge/AI-030705?style=flat-square&logo=openai&logoColor=43ff78" alt="AI" />
-  <img src="https://img.shields.io/badge/GAME_DEV-030705?style=flat-square&logo=unrealengine&logoColor=43ff78" alt="Game development" />
-  <img src="https://img.shields.io/badge/NEXT.JS-030705?style=flat-square&logo=nextdotjs&logoColor=43ff78" alt="Next.js" />
-  <img src="https://img.shields.io/badge/JAVASCRIPT-030705?style=flat-square&logo=javascript&logoColor=ffb000" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PYTHON-030705?style=flat-square&logo=python&logoColor=35d8ff" alt="Python" />
-  <img src="https://img.shields.io/badge/C-030705?style=flat-square&logo=c&logoColor=b693ff" alt="C" />
-  <img src="https://img.shields.io/badge/HTML5-030705?style=flat-square&logo=html5&logoColor=ffb000" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-030705?style=flat-square&logo=css3&logoColor=35d8ff" alt="CSS3" />
-  <img src="https://img.shields.io/badge/REACT_NATIVE-030705?style=flat-square&logo=react&logoColor=35d8ff" alt="React Native" />
-  <img src="https://img.shields.io/badge/UI%2FUX-030705?style=flat-square&logo=figma&logoColor=ff59d6" alt="UI and UX" />
-</p>
+<br />
 
-## `$ cat achievements.log`
+> A fast, action-first safety dashboard designed to turn live signals into clear emergency decisions.
 
-```text
-[2026] OPENAI                        CAMPUS LEAD
-[2026] GOOGLE GEMINI                 STUDENT AMBASSADOR — SHORTLISTED
-[2026] HACK4RELIEF                   3RD PLACE
-[2026] JABALI GAME JAM               TOP 10 FINALIST
-[2026] VISIONARY PIXEL × ANDALA AI   WINNER
-```
+`Next.js` `WebSockets` `Real-time systems` `Product design`
 
-## `$ git status --short`
+**[Launch project →](https://safezones.vercel.app/)**
+
+</details>
+
+<details>
+<summary><strong>⚡ TELEPORT KILLER</strong> — Neon cyberpunk combat experiment <code>Top 10</code></summary>
+
+<br />
+
+> A high-energy game prototype built around teleportation, momentum, and sharp visual feedback.
+
+`C++` `Unreal Engine` `Game design` `Rapid prototyping`
+
+**[Enter the arena →](https://www.jabali.ai/game/574e925c-814c-4655-b0c2-18d4b8d1f1de/create-from-scratch/teleport-killer/)**
+
+</details>
+
+<details>
+<summary><strong>🏆 VIBE CODE QUEST</strong> — Learn prompting through play <code>Winner</code></summary>
+
+<br />
+
+> An 8-bit learning adventure that transforms better AI prompting into quests, feedback, and discovery.
+
+`AI/ML` `Game development` `Learning experience` `Pixel UI`
+
+**[Start the quest →](https://app-b0pl8qd02cjl.appmedo.com/)**
+
+</details>
+
+<details>
+<summary><strong>💚 MEOWCARE</strong> — Accessible remote care <code>Built with care</code></summary>
+
+<br />
+
+> A calm mobile care experience focused on accessibility, clarity, and human connection.
+
+`React Native` `UI/UX` `Accessibility` `Mobile product`
+
+</details>
+
+## `03 // SYSTEM CAPABILITIES`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ShaileshSethi&show_icons=true&hide_border=true&bg_color=030705&title_color=43ff78&text_color=dfffe8&icon_color=ffb000" alt="Shailesh's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaileshSethi&layout=compact&hide_border=true&bg_color=030705&title_color=43ff78&text_color=dfffe8" alt="Shailesh's top languages" />
+![AI](https://img.shields.io/badge/AI_&_LLMs-030705?style=for-the-badge&logo=openai&logoColor=43FF78)
+![Game Development](https://img.shields.io/badge/GAME_DEV-030705?style=for-the-badge&logo=unrealengine&logoColor=43FF78)
+![Next.js](https://img.shields.io/badge/NEXT.JS-030705?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-030705?style=for-the-badge&logo=javascript&logoColor=FFB000)
+![Python](https://img.shields.io/badge/PYTHON-030705?style=for-the-badge&logo=python&logoColor=35D8FF)
+![C](https://img.shields.io/badge/C-030705?style=for-the-badge&logo=c&logoColor=B693FF)
+![React Native](https://img.shields.io/badge/REACT_NATIVE-030705?style=for-the-badge&logo=react&logoColor=35D8FF)
+![HTML5](https://img.shields.io/badge/HTML5-030705?style=for-the-badge&logo=html5&logoColor=FF7A59)
+![CSS3](https://img.shields.io/badge/CSS3-030705?style=for-the-badge&logo=css3&logoColor=35D8FF)
+![Figma](https://img.shields.io/badge/UI_&_UX-030705?style=for-the-badge&logo=figma&logoColor=FF59D6)
+
+</div>
+
+```text
+DISCOVER  ──►  DESIGN  ──►  BUILD  ──►  PLAYTEST  ──►  SHIP  ──►  ITERATE ↺
+```
+
+## `04 // FIELD NOTES`
+
+| Signal | Achievement | Result |
+|:--:|---|---:|
+| `OPENAI` | Campus Lead | **2026** |
+| `GOOGLE GEMINI` | Student Ambassador | **Shortlisted** |
+| `HACK4RELIEF` | Safety-tech challenge | **3rd Place** |
+| `JABALI GAME JAM` | Game development competition | **Top 10** |
+| `VISIONARY PIXEL × ANDALA AI` | AI creative challenge | **Winner** |
+
+## `05 // LIVE TELEMETRY`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShaileshSethi&show_icons=true&hide_border=true&bg_color=030705&title_color=43FF78&text_color=DFFFE8&icon_color=FFB000&ring_color=43FF78" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShaileshSethi&show_icons=true&hide_border=true&bg_color=F6FFF8&title_color=087F5B&text_color=172B20&icon_color=B36B00&ring_color=087F5B" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ShaileshSethi&show_icons=true&hide_border=true&bg_color=030705&title_color=43FF78&text_color=DFFFE8&icon_color=FFB000&ring_color=43FF78" alt="Shailesh's GitHub statistics" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaileshSethi&layout=compact&hide_border=true&bg_color=030705&title_color=43FF78&text_color=DFFFE8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaileshSethi&layout=compact&hide_border=true&bg_color=F6FFF8&title_color=087F5B&text_color=172B20" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaileshSethi&layout=compact&hide_border=true&bg_color=030705&title_color=43FF78&text_color=DFFFE8" alt="Shailesh's most-used public repository languages" />
+</picture>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -84,11 +137,16 @@ mission: Turn ambitious ideas into useful experiences people remember.
 
 <div align="center">
 
-```text
-guest@shailesh:~$ echo "Got a wild idea? Send it."
-> transmission open
-```
+### `TRANSMISSION OPEN`
 
-**[shaileshtunes@gmail.com](mailto:shaileshtunes@gmail.com)**
+Got a wild idea, a game mechanic, or a problem worth solving?
+
+**[Start a conversation](mailto:shaileshtunes@gmail.com?subject=Let%27s%20build%20something%20memorable)**
+
+<br />
+
+<img src="./assets/signal.svg" width="100%" alt="Animated signal waveform" />
+
+<sub>Designed and engineered with curiosity by Shailesh Sethi.</sub>
 
 </div>

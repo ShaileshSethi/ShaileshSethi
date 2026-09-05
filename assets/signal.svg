@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" role="img" aria-labelledby="title">
+  <title id="title">Animated open transmission signal</title>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#43ff78" stop-opacity="0"/><stop offset=".2" stop-color="#43ff78"/><stop offset=".5" stop-color="#35d8ff"/><stop offset=".8" stop-color="#b693ff"/><stop offset="1" stop-color="#b693ff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.wave{stroke-dasharray:7 12;animation:flow 2.4s linear infinite}.dot{animation:travel 4s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-38}}@keyframes travel{0%{transform:translateX(0);opacity:0}10%,90%{opacity:1}100%{transform:translateX(1100px);opacity:0}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  </defs>
+  <path d="M0 32h445l12-20 18 40 22-34 18 27 15-13h670" fill="none" stroke="#32493a" stroke-width="1"/>
+  <path class="wave" d="M0 32h445l12-20 18 40 22-34 18 27 15-13h670" fill="none" stroke="url(#signal)" stroke-width="2" filter="url(#glow)"/>
+  <g class="dot" filter="url(#glow)"><circle cx="50" cy="32" r="4" fill="#43ff78"/><circle cx="50" cy="32" r="10" fill="none" stroke="#43ff78" opacity=".35"/></g>
+</svg>

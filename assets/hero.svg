@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Shailesh Sethi — Creative Developer</title>
+  <desc id="desc">An animated cyber terminal interface with a glowing network, live status indicators, and rotating creative technology roles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030705"/>
+      <stop offset="0.52" stop-color="#07130d"/>
+      <stop offset="1" stop-color="#03080b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#43ff78" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#35d8ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#b693ff" stop-opacity=".7"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop stop-color="#dffff0"/>
+      <stop offset=".25" stop-color="#43ff78"/>
+      <stop offset="1" stop-color="#43ff78" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#43ff78" stroke-opacity=".07"/>
+      <circle cx="0" cy="0" r="1.2" fill="#43ff78" fill-opacity=".18"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="58" y="76" width="1084" height="306" rx="14"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .dim{fill:#8eac9a}.green{fill:#43ff78}.cyan{fill:#35d8ff}.violet{fill:#b693ff}
+      .scan{animation:scan 7s linear infinite}.pulse{animation:pulse 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.blink{animation:blink 1s steps(2,end) infinite}
+      .float-a{animation:floatA 5s ease-in-out infinite}.float-b{animation:floatB 6s ease-in-out infinite}
+      .r1{animation:role1 12s infinite}.r2{animation:role2 12s infinite}.r3{animation:role3 12s infinite}.r4{animation:role4 12s infinite}
+      .packet{stroke-dasharray:2 15;animation:packet 3s linear infinite}
+      @keyframes scan{from{transform:translateY(-80px)}to{transform:translateY(440px)}}
+      @keyframes pulse{0%,100%{opacity:.45;transform:scale(.82)}50%{opacity:1;transform:scale(1.18)}}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes floatA{0%,100%{transform:translate(0,0)}50%{transform:translate(7px,-9px)}}
+      @keyframes floatB{0%,100%{transform:translate(0,0)}50%{transform:translate(-8px,7px)}}
+      @keyframes role1{0%,20%{opacity:1}24%,100%{opacity:0}}
+      @keyframes role2{0%,23%{opacity:0}25%,45%{opacity:1}49%,100%{opacity:0}}
+      @keyframes role3{0%,48%{opacity:0}50%,70%{opacity:1}74%,100%{opacity:0}}
+      @keyframes role4{0%,73%{opacity:0}75%,95%{opacity:1}99%,100%{opacity:0}}
+      @keyframes packet{to{stroke-dashoffset:-34}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.r2,.r3,.r4{display:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="440" rx="24" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="437" rx="22.5" fill="none" stroke="url(#edge)" stroke-width="3"/>
+  <rect width="1200" height="440" rx="24" fill="url(#grid)"/>
+  <path d="M0 78H1200" stroke="#43ff78" stroke-opacity=".16"/>
+  <g class="mono" font-size="15">
+    <circle cx="30" cy="39" r="7" fill="#ff5f57"/><circle cx="54" cy="39" r="7" fill="#febc2e"/><circle cx="78" cy="39" r="7" fill="#28c840"/>
+    <text x="104" y="44" fill="#6d8876">shailesh://creative-system/profile</text>
+    <circle class="pulse" cx="1091" cy="39" r="5" fill="#43ff78" filter="url(#glow)"/><text x="1104" y="44" fill="#43ff78">ONLINE</text>
+  </g>
+  <g clip-path="url(#screen)"><rect class="scan" x="58" y="0" width="1084" height="56" fill="url(#edge)" opacity=".035"/></g>
+  <g transform="translate(72 112)">
+    <text class="mono green" font-size="17" letter-spacing="2">HELLO, WORLD — I AM</text>
+    <text class="sans" x="-2" y="70" font-size="62" font-weight="800" fill="#effff4" letter-spacing="-2">SHAILESH SETHI</text>
+    <rect y="92" width="88" height="4" rx="2" fill="#43ff78"/><rect x="96" y="92" width="32" height="4" rx="2" fill="#35d8ff"/>
+    <g class="mono" font-size="24" transform="translate(0 145)">
+      <text class="dim">&gt; </text><text class="r1 cyan" x="32">creative developer</text><text class="r2 green" x="32">AI experience builder</text><text class="r3 violet" x="32">game maker</text><text class="r4" x="32" fill="#ffb000">interaction designer</text>
+      <rect class="blink" x="340" y="-22" width="11" height="27" fill="#43ff78"/>
+    </g>
+    <text class="mono dim" y="210" font-size="16">Engineering playful digital experiences that feel alive.</text>
+    <g transform="translate(0 247)" class="mono" font-size="13"><rect width="158" height="33" rx="16.5" fill="#43ff78" fill-opacity=".08" stroke="#43ff78" stroke-opacity=".45"/><circle class="pulse" cx="18" cy="16.5" r="4" fill="#43ff78"/><text x="31" y="21" fill="#b9d8c3">AVAILABLE TO BUILD</text></g>
+  </g>
+  <g transform="translate(820 114)">
+    <path d="M151 121L72 52M151 121l91-64M151 121l67 99M151 121L54 218M72 52l170 5M54 218l164 2" fill="none" stroke="#43ff78" stroke-opacity=".2"/>
+    <path class="packet" d="M151 121L72 52M151 121l91-64M151 121l67 99M151 121L54 218" fill="none" stroke="#35d8ff" stroke-width="2"/>
+    <circle cx="151" cy="121" r="69" fill="none" stroke="#43ff78" stroke-opacity=".1" stroke-dasharray="3 8"/><circle cx="151" cy="121" r="43" fill="none" stroke="#35d8ff" stroke-opacity=".17"/>
+    <circle class="pulse" cx="151" cy="121" r="24" fill="url(#orb)" filter="url(#glow)"/><circle cx="151" cy="121" r="7" fill="#effff4"/>
+    <g class="float-a"><circle cx="72" cy="52" r="13" fill="#07130d" stroke="#43ff78"/><circle cx="72" cy="52" r="3" fill="#43ff78"/><text class="mono green" x="22" y="27" font-size="12">AI / ML</text></g>
+    <g class="float-b"><circle cx="242" cy="57" r="13" fill="#07130d" stroke="#35d8ff"/><circle cx="242" cy="57" r="3" fill="#35d8ff"/><text class="mono cyan" x="254" y="36" font-size="12">MOTION</text></g>
+    <g class="float-b"><circle cx="54" cy="218" r="13" fill="#07130d" stroke="#b693ff"/><circle cx="54" cy="218" r="3" fill="#b693ff"/><text class="mono violet" x="2" y="249" font-size="12">GAMES</text></g>
+    <g class="float-a"><circle cx="218" cy="220" r="13" fill="#07130d" stroke="#ffb000"/><circle cx="218" cy="220" r="3" fill="#ffb000"/><text class="mono" x="232" y="250" font-size="12" fill="#ffb000">WEB</text></g>
+  </g>
+  <text class="mono" x="72" y="412" font-size="12" fill="#4d6857">SYS.READY  •  CURIOUS BY DEFAULT  •  SHIPPING WITH INTENT</text>
+  <text class="mono" x="1128" y="412" text-anchor="end" font-size="12" fill="#4d6857">v2.0.26</text>
+</svg>
