@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" role="img" aria-labelledby="title desc">
+  <title id="title">Teleport Killer</title><desc id="desc">Neon cyberpunk combat experiment and top ten finalist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030705"/><stop offset="1" stop-color="#111027"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#b693ff" stroke-opacity=".06"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:Inter,Segoe UI,Arial,sans-serif}.ring{animation:ring 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.spark{animation:spark 2.4s ease-in-out infinite}@keyframes ring{50%{transform:scale(1.18);opacity:.25}}@keyframes spark{50%{transform:translate(-18px,12px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  </defs>
+  <rect width="560" height="240" rx="18" fill="url(#bg)"/><rect x="1.5" y="1.5" width="557" height="237" rx="16.5" fill="none" stroke="#b693ff" stroke-opacity=".6" stroke-width="3"/><rect width="560" height="240" rx="18" fill="url(#grid)"/>
+  <text class="mono" x="28" y="39" font-size="12" fill="#b693ff">02 / GAME DEV</text>
+  <g transform="translate(452 113)" filter="url(#glow)"><circle class="ring" r="50" fill="none" stroke="#b693ff"/><circle r="31" fill="none" stroke="#35d8ff" stroke-dasharray="4 7"/><path class="spark" d="M-8-26L15-5 2 1l15 27-36-32 14-4z" fill="#effff4"/></g>
+  <text class="sans" x="28" y="88" font-size="29" font-weight="800" fill="#effff4">TELEPORT KILLER</text>
+  <text class="sans" x="28" y="119" font-size="15" fill="#a9a5c4">A neon cyberpunk combat</text><text class="sans" x="28" y="140" font-size="15" fill="#a9a5c4">experiment built around momentum.</text>
+  <rect x="28" y="174" width="61" height="27" rx="13.5" fill="#b693ff" fill-opacity=".1" stroke="#b693ff" stroke-opacity=".4"/><text class="mono" x="58.5" y="192" text-anchor="middle" font-size="11" fill="#b693ff">C++</text>
+  <rect x="97" y="174" width="116" height="27" rx="13.5" fill="#b693ff" fill-opacity=".1" stroke="#b693ff" stroke-opacity=".4"/><text class="mono" x="155" y="192" text-anchor="middle" font-size="11" fill="#b693ff">UNREAL ENGINE</text>
+  <text class="mono" x="532" y="197" text-anchor="end" font-size="11" fill="#35d8ff">TOP 10 ↗</text>
+</svg>

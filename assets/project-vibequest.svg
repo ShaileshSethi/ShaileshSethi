@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" role="img" aria-labelledby="title desc">
+  <title id="title">Vibe Code Quest</title><desc id="desc">An eight-bit prompting adventure and challenge winner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030705"/><stop offset="1" stop-color="#071924"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#35d8ff" stroke-opacity=".06"/></pattern>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:Inter,Segoe UI,Arial,sans-serif}.pixel{animation:jump 2s steps(2,end) infinite;transform-box:fill-box;transform-origin:center}.trail{stroke-dasharray:3 10;animation:trail 2s linear infinite}@keyframes jump{50%{transform:translateY(-12px)}}@keyframes trail{to{stroke-dashoffset:-26}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  </defs>
+  <rect width="560" height="240" rx="18" fill="url(#bg)"/><rect x="1.5" y="1.5" width="557" height="237" rx="16.5" fill="none" stroke="#35d8ff" stroke-opacity=".55" stroke-width="3"/><rect width="560" height="240" rx="18" fill="url(#grid)"/>
+  <text class="mono" x="28" y="39" font-size="12" fill="#35d8ff">03 / AI × PLAY</text>
+  <g class="pixel" transform="translate(452 106)"><rect x="-25" y="-25" width="50" height="50" fill="#35d8ff" fill-opacity=".12" stroke="#35d8ff"/><rect x="-13" y="-10" width="8" height="8" fill="#43ff78"/><rect x="5" y="-10" width="8" height="8" fill="#43ff78"/><path d="M-13 9h26v7h-26z" fill="#35d8ff"/></g><path class="trail" d="M394 152h118" stroke="#35d8ff" stroke-width="2"/>
+  <text class="sans" x="28" y="88" font-size="29" font-weight="800" fill="#effff4">VIBE CODE QUEST</text>
+  <text class="sans" x="28" y="119" font-size="15" fill="#91afba">An 8-bit adventure that teaches</text><text class="sans" x="28" y="140" font-size="15" fill="#91afba">better prompting through play.</text>
+  <rect x="28" y="174" width="68" height="27" rx="13.5" fill="#35d8ff" fill-opacity=".09" stroke="#35d8ff" stroke-opacity=".35"/><text class="mono" x="62" y="192" text-anchor="middle" font-size="11" fill="#35d8ff">AI / ML</text>
+  <rect x="104" y="174" width="93" height="27" rx="13.5" fill="#35d8ff" fill-opacity=".09" stroke="#35d8ff" stroke-opacity=".35"/><text class="mono" x="150.5" y="192" text-anchor="middle" font-size="11" fill="#35d8ff">GAME DEV</text>
+  <text class="mono" x="532" y="197" text-anchor="end" font-size="11" fill="#ffb000">WINNER ↗</text>
+</svg>

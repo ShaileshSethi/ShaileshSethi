@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" role="img" aria-labelledby="title desc">
+  <title id="title">SAFEZONES</title><desc id="desc">Real-time emergency intelligence dashboard, third place winner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030705"/><stop offset="1" stop-color="#071a10"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#43ff78" stroke-opacity=".06"/></pattern>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:Inter,Segoe UI,Arial,sans-serif}.pulse{animation:pulse 2s ease-in-out infinite}.dash{stroke-dasharray:4 10;animation:dash 3s linear infinite}@keyframes pulse{50%{opacity:.3}}@keyframes dash{to{stroke-dashoffset:-28}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  </defs>
+  <rect width="560" height="240" rx="18" fill="url(#bg)"/><rect x="1.5" y="1.5" width="557" height="237" rx="16.5" fill="none" stroke="#43ff78" stroke-opacity=".55" stroke-width="3"/><rect width="560" height="240" rx="18" fill="url(#grid)"/>
+  <text class="mono" x="28" y="39" font-size="12" fill="#43ff78">01 / SAFETY TECH</text><circle class="pulse" cx="520" cy="34" r="5" fill="#43ff78"/>
+  <text class="sans" x="28" y="88" font-size="31" font-weight="800" fill="#effff4">SAFEZONES</text>
+  <text class="sans" x="28" y="119" font-size="15" fill="#9ab5a2">Real-time intelligence for faster</text><text class="sans" x="28" y="140" font-size="15" fill="#9ab5a2">emergency decisions.</text>
+  <path class="dash" d="M330 122h55l16-34 23 67 22-44 17 11h68" fill="none" stroke="#43ff78" stroke-width="2"/>
+  <rect x="28" y="174" width="86" height="27" rx="13.5" fill="#43ff78" fill-opacity=".09" stroke="#43ff78" stroke-opacity=".35"/><text class="mono" x="71" y="192" text-anchor="middle" font-size="11" fill="#43ff78">NEXT.JS</text>
+  <rect x="122" y="174" width="104" height="27" rx="13.5" fill="#43ff78" fill-opacity=".09" stroke="#43ff78" stroke-opacity=".35"/><text class="mono" x="174" y="192" text-anchor="middle" font-size="11" fill="#43ff78">WEBSOCKETS</text>
+  <text class="mono" x="532" y="197" text-anchor="end" font-size="11" fill="#ffb000">3RD PLACE ↗</text>
+</svg>
