@@ -126,9 +126,9 @@ DISCOVER  ──►  DESIGN  ──►  BUILD  ──►  PLAYTEST  ──►  S
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/gh-pages/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/gh-pages/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/ShaileshSethi/ShaileshSethi/gh-pages/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
